@@ -35,7 +35,7 @@
   background-image: linear-gradient(
     to right,
     #fff 0%,
-    #f77062 90%,
+    #f77062 50%,
     #fe5196 100%
   );
   background-size: 100%;
@@ -48,10 +48,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
-
-.fa-gem {
-  margin-right: 0.5rem;
 }
 
 .navbar__menu {
@@ -75,14 +71,6 @@
   height: 100%;
 }
 
-.navbar__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  width: 100%;
-}
-
 .button {
   display: flex;
   justify-content: center;
@@ -99,7 +87,7 @@
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #7d37ff;
   transition: all 0.3s ease;
 }
 
@@ -151,7 +139,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: linear-gradient(to right, #fff 0%, #fff 40%, #f70000 100%);
+    background: #fff;
   }
 
   .navbar__item {
@@ -163,10 +151,6 @@
     padding: 2rem;
     width: 100%;
     display: table;
-  }
-
-  .navbar__btn {
-    padding-bottom: 2rem;
   }
 
   .button {
@@ -243,20 +227,19 @@
 .main__content h2 {
   font-size: 4rem;
   margin-top: 10px;
-}
-
-.main__content p {
-  margin-top: 1rem;
-  font-size: 1.6rem;
-  padding: 0 90px;
-  font-weight: 700;
   background-color: #ff8177;
-  background-image: linear-gradient(-20deg, #ec1414 0%, #2896fd 60%);
+  background-image: linear-gradient(-20deg, #ff21da 0%, #8821fd 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.main__content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .main__btn {
@@ -337,15 +320,14 @@
 
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.1rem;
-    padding: 0 50px;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .main__content h1 {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .main__content h2 {
@@ -353,9 +335,7 @@
   }
 
   .main__content p {
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    padding: 0 40px;
+    font-size: 1.5rem;
   }
 
   .main__btn {
@@ -364,9 +344,8 @@
   }
 }
 
-/* About me */
-
-.services {
+/* About me Section */
+.aboutme {
   background: #3a3838;
   display: flex;
   flex-direction: column;
@@ -375,7 +354,7 @@
   height: 100vh;
 }
 
-.services h1 {
+.aboutme h2 {
   background-color: #ff8177;
   background-image: linear-gradient(
     to right,
@@ -391,25 +370,25 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 2.5rem;
 }
 
 #abtme {
   color: #fff;
   font-size: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   width: 50%;
   text-align: center;
 }
 
-.services__container {
+.aboutme__container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.services__card {
+.aboutme__card {
   margin: 1rem;
   height: 525px;
   width: 400px;
@@ -419,48 +398,48 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("/img/band.jpg.jpg");
+    url("/img/band.jpg");
   background-size: cover;
   position: relative;
   color: #fff;
-  display: block;
 }
 
-.services__card:before {
+.aboutme__card:before {
   opacity: 0.2;
 }
 
-.services__card:nth-child(2) {
+.aboutme__card:nth-child(2) {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
+      rgba(17, 17, 17, 0.9) 100%
     ),
-    url("/img/cad.jpg.jpg");
+    url("/img/cad.jpg");
 }
 
-.services__card:nth-child(3) {
+.aboutme__card:nth-child(3) {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
+      rgba(17, 17, 17, 0.9) 100%
     ),
-    url("/img/custserv.jpg.jpg");
+    url("/img/custserv.jpg");
 }
 
-.services__card h2 {
+.aboutme__card h3 {
   position: absolute;
-  top: 400px;
-  left: 30px;
-}
-
-.services__card p {
-  position: absolute;
+  font-size: 25px;
   top: 450px;
   left: 30px;
 }
 
-.services__card button {
+.aboutme__card p {
+  position: absolute;
+  top: 490px;
+  left: 30px;
+}
+
+.aboutme__card button {
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -473,48 +452,65 @@
   font-size: 1rem;
 }
 
-.services__card button:hover {
+.aboutme__card button:hover {
   cursor: pointer;
 }
 
-.services__card:hover {
+.aboutme__card:hover {
   transform: scale(1.075);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
-  .services {
-    height: 1800px;
+  .aboutme {
+    height: 1600px;
   }
 
-  .services h1 {
-    font-size: 2rem;
-    margin-top: 10rem;
+  .aboutme h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .aboutme__card h3 {
+    font-size: 1.4rem;
+  }
+
+  .aboutme__card p {
+    font-size: 1rem;
   }
 
   #abtme {
     font-size: 1rem;
-    margin: 3rem 3rem;
+    margin: 2rem 2rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .services {
-    height: 1800px;
+  .aboutme {
+    height: 2200px;
   }
 
-  .services h1 {
-    font-size: 1.2rem;
+  .aboutme h2 {
+    font-size: 2.2rem;
+    margin-top: 6rem;
   }
 
-  .services__card {
+  .aboutme__card {
     width: 300px;
   }
 
-  #abtme {
+  .aboutme__card h3 {
+    font-size: 1.2rem;
+  }
+
+  .aboutme__card p {
     font-size: 1rem;
-    margin: 3rem 3rem;
+  }
+
+  #abtme {
+    font-size: 0.9rem;
+    margin: 0.1rem 2rem 2rem 2rem;
   }
 }
 
