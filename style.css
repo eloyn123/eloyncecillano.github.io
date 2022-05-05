@@ -293,6 +293,20 @@
 }
 
 /* Mobile Responsive */
+@media screen and (max-width: 960px) {
+  .main__content h1 {
+    font-size: 2.5rem;
+  }
+
+  .main__content h2 {
+    font-size: 3rem;
+  }
+
+  .main__content p {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
@@ -450,6 +464,30 @@
 @media screen and (max-width: 960px) {
   .aboutme {
     height: 1600px;
+  }
+
+  .aboutme h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .aboutme__card h3 {
+    font-size: 1.4rem;
+  }
+
+  .aboutme__card p {
+    font-size: 1rem;
+  }
+
+  #abtme {
+    font-size: 1rem;
+    margin: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutme {
+    height: 2100px;
   }
 
   .aboutme h2 {
