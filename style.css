@@ -783,6 +783,17 @@
   .exp__btn {
     margin-top: 10px;
   }
+
+  .exp__img--container {
+    text-align: center;
+    height: 350px;
+    margin-top: 2rem;
+  }
+
+  #exp__img {
+    height: 80%;
+    width: 80%;
+  }
 }
 
 /*CAD*/
