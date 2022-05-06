@@ -562,11 +562,11 @@
 
 @media screen and (max-width: 480px) {
   .aboutme {
-    height: 1450px;
+    height: 1550px;
   }
 
   .aboutme h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-top: 6rem;
   }
 
@@ -583,7 +583,7 @@
   }
 
   #abtme {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0.1rem 2rem 2rem 2rem;
   }
 }
@@ -674,6 +674,11 @@
   margin-top: 0.5rem;
 }
 
+.other__list {
+  list-style: disc;
+  margin: 20px 20px;
+}
+
 @media screen and (max-width: 960px) {
   .other__content h2 {
     font-size: 2rem;
@@ -753,7 +758,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 950px;
   }
 
   .other__content {
@@ -889,7 +894,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 1000px;
+    height: 1025px;
   }
 
   .cad__content {
@@ -1007,7 +1012,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 1000px;
   }
 
   .acc__content {
@@ -1053,7 +1058,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 1050px;
   }
 
   .acc__content {
