@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -1155,13 +1156,18 @@
 
 .social__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   width: 240px;
 }
 
+.social__icons a {
+  margin-right: 20px;
+}
+
 .website__rights {
   color: #fff;
+  text-align: start;
 }
 
 @media screen and (max-width: 820px) {
