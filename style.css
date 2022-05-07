@@ -369,6 +369,15 @@
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
+
+  .main__container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .main__content {
+    margin-bottom: 0rem;
+  }
 }
 
 /* About me Section */
@@ -397,7 +406,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
 }
 
@@ -480,7 +489,7 @@
 
 @media screen and (max-width: 960px) {
   .aboutme {
-    height: 1200px;
+    height: 1050px;
   }
 
   .aboutme h2 {
@@ -499,6 +508,7 @@
   #abtme {
     font-size: 1rem;
     margin: 2rem 2rem;
+    width: 80%;
   }
 
   .aboutme__card {
@@ -538,7 +548,7 @@
 
 @media screen and (max-width: 768px) {
   .aboutme {
-    height: 1500px;
+    height: 1350px;
   }
 
   .aboutme h2 {
@@ -562,12 +572,12 @@
 
 @media screen and (max-width: 480px) {
   .aboutme {
-    height: 1550px;
+    height: 1350px;
   }
 
   .aboutme h2 {
     font-size: 2.5rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 
   .aboutme__card {
@@ -585,6 +595,7 @@
   #abtme {
     font-size: 1rem;
     margin: 0.1rem 2rem 2rem 2rem;
+    width: 90%;
   }
 }
 
@@ -759,6 +770,8 @@
     width: 100%;
     margin: 0 auto;
     height: 950px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .other__content {
@@ -785,15 +798,16 @@
   }
 
   .exp__img--container {
-    text-align: center;
-    height: 350px;
-    margin-top: 2rem;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
   }
 
-  #exp__img {
-    height: 80%;
-    width: 80%;
-  }
+  /* #exp__img {
+    height: 100px;
+    width: 100px;
+  } */
 }
 
 /*CAD*/
@@ -866,7 +880,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 1000px;
+    height: 950px;
   }
 
   .cad__content {
@@ -906,6 +920,8 @@
     width: 100%;
     margin: 0 auto;
     height: 1025px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .cad__content {
@@ -1070,6 +1086,8 @@
     width: 100%;
     margin: 0 auto;
     height: 1050px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .acc__content {
