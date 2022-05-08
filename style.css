@@ -24,7 +24,7 @@
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1700px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
@@ -199,7 +199,7 @@
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
+  height: 100vh;
   background-color: #131313;
   z-index: 1;
   width: 100%;
@@ -427,7 +427,7 @@
 
 .aboutme__card {
   margin: 1rem;
-  height: 525px;
+  height: 500px;
   width: 400px;
   border-radius: 4px;
   background-image: url("/img/band.jpg");
@@ -451,13 +451,13 @@
 .aboutme__card h3 {
   position: absolute;
   font-size: 25px;
-  top: 400px;
+  top: 385px;
   left: 30px;
 }
 
 .aboutme__card p {
   position: absolute;
-  top: 440px;
+  top: 420px;
   left: 30px;
 }
 
@@ -473,7 +473,7 @@
   border-radius: 4px;
   background: #f77062;
   position: absolute;
-  top: 470px;
+  top: 450px;
   left: 30px;
   font-size: 1rem;
 }
